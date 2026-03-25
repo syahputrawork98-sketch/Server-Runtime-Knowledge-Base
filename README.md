@@ -7,7 +7,10 @@ Repositori ini adalah **Blueprint Utama (Rak 02)** dalam ekosistem *The Learning
 ---
 
 ## 🎯 Visi Arsitektural: Engine-First (The Why)
-Seringkali server dipandang hanya sebagai wadah teks (sintaks). Padahal, performa backend bergantung pada bagaimana **Runtime Engine** (seperti Node.js/V8) mendelegasikan beban kerja ke kernel Sistem Operasi (POSIX/Windows).
+Server Runtime adalah **Inang (Host Environment)** yang menjembatani logika tingkat tinggi dengan sumber daya fisik Sistem Operasi (OS). Ia bertindak sebagai **Dirigen Komputasi Asinkron** yang mengelola:
+1.  **Libuv (The Heart)**: Mesin I/O non-blocking yang berbicara langsung ke Kernel OS.
+2.  **V8 (The Brain)**: Mesin eksekusi performa tinggi.
+3.  **System Bindings**: Jalur akses ke sistem berkas (Disk), jaringan (Network), dan memori (RAM).
 
 Vasi repositori ini adalah membedah **The Server Platform** sebagai orkestrator sistem:
 1. **The I/O Engine**: Mekanisme `libuv` dalam menangani Network/Disk secara asinkron.

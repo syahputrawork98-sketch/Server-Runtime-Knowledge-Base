@@ -12,5 +12,8 @@ Titik temu antara Bahasa dan Runtime Server.
 
 ---
 ## 📂 Struktur
-- **SR-01_Native_Bindings_Logic**
-- **SR-02_Matrix_Bridge**
+- **SR-01_JS_Node_Orchestration**
+- **SR-02_TS_Transpilation_Runtime**
+- **SR-03_Rust_NAPI_Addons**
+- **SR-04_Go_CShared_Bindings**
+- **SR-05_Python_Extending_Node**
