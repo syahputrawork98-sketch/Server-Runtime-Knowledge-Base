@@ -22,16 +22,16 @@ flowchart TB
 ```
 
 ## Pemetaan
-- [mapping.md](file:///i:/Workspace/Workspace-Syahputrawork/02-Execution-Hubs/Server-Runtime-Knowledge-Base/docs/mapping.md)
+- [mapping.md](mapping.md)
 
 ## Tata Kelola
-- [root-governance.md](file:///i:/Workspace/Workspace-Syahputrawork/02-Execution-Hubs/Server-Runtime-Knowledge-Base/docs/root-governance.md)
+- [root-governance.md](root-governance.md)
 
 ## Panduan Sumber Bab
-- [chapter-sourcing.md](file:///i:/Workspace/Workspace-Syahputrawork/02-Execution-Hubs/Server-Runtime-Knowledge-Base/docs/chapter-sourcing.md)
+- [chapter-sourcing.md](chapter-sourcing.md)
 
 ## Referensi
-- [references.md](file:///i:/Workspace/Workspace-Syahputrawork/02-Execution-Hubs/Server-Runtime-Knowledge-Base/docs/references.md)
+- [references.md](references.md)
 
 ## Pemetaan Referensi
-- [reference-mapping.md](file:///i:/Workspace/Workspace-Syahputrawork/02-Execution-Hubs/Server-Runtime-Knowledge-Base/docs/reference-mapping.md)
+- [reference-mapping.md](reference-mapping.md)
